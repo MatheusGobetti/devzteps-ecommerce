@@ -1,12 +1,12 @@
 /* src/routes/landing.css */
 .main-landing {
-  min-height: 60vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 2rem;
+  background: linear-gradient(135deg, #fff 0%, #e0e7ff 100%);
 }
 .main-landing h1 {
   font-size: 2.2rem;

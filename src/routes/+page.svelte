@@ -1,5 +1,4 @@
 <script lang="ts">
-  // Página inicial simples, pode adicionar conteúdo institucional ou redirecionamento
   import './landing.css';
 </script>
 

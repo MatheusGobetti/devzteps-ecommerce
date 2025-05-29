@@ -1,5 +1,4 @@
 /* src/app.css */
-
 :root {
   --color-primary: #2563eb;
   --color-primary-dark: #1e40af;
@@ -30,7 +29,6 @@ html, body {
   border: none;
   cursor: pointer;
   outline: none;
-  display: inline-block;
 }
 
 .button-primary {

@@ -1,8 +1,8 @@
 /* src/routes/home/home.css */
 .hero-section {
   min-height: 100dvh;
-  box-sizing: border-box;
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
   justify-content: center;
   align-items: center;
