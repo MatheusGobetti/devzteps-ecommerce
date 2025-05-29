@@ -13,6 +13,7 @@
     <div class="flex gap-4 justify-center">
       <Button label="Ver Produtos" href="/products" />
       <Button label="Começar Agora" href="/signup" variant="secondary" />
+      <Button label="Log-In" href="/signup" variant="primary" />
     </div>
   </div>
 </section>

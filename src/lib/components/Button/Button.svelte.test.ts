@@ -17,12 +17,12 @@ describe('Button component', () => {
   it('applies primary variant by default', () => {
     const { getByRole } = render(Button, { props: { label: 'Teste' } });
     const link = getByRole('link');
-    expect(link.className).toContain('bg-blue-600');
+    expect(link.className).toContain('button-primary');
   });
 
   it('applies secondary variant', () => {
     const { getByRole } = render(Button, { props: { label: 'Teste', variant: 'secondary' } });
     const link = getByRole('link');
-    expect(link.className).toContain('border-blue-600');
+    expect(link.className).toContain('button-secondary');
   });
 });
