@@ -12,7 +12,11 @@
   --font-main: 'Inter var', 'Inter', 'Segoe UI', Arial, sans-serif;
 }
 
-html {
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
   font-family: var(--font-main);
 }
 
